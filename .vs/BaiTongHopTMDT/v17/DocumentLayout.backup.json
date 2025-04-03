@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "K:\\windowsForm\\BaiTongHopTMDT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\comboboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\comboboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:comboboxitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,12 +38,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormBaoCao.cs",
+              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs",
+              "RelativeDocumentMoniker": "FormBaoCao.cs",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs",
+              "RelativeToolTip": "FormBaoCao.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:28:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormBaoCao.cs [Design]",
+              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs",
+              "RelativeDocumentMoniker": "FormBaoCao.cs",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs [Design]",
+              "RelativeToolTip": "FormBaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:27:37.129Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ComboBoxItem.cs",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\ComboBoxItem.cs",
               "RelativeDocumentMoniker": "ComboBoxItem.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\ComboBoxItem.cs*",
-              "RelativeToolTip": "ComboBoxItem.cs*",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\ComboBoxItem.cs",
+              "RelativeToolTip": "ComboBoxItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T16:07:40.222Z",
@@ -55,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FormDanhSachKhachHang.cs",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeDocumentMoniker": "FormDanhSachKhachHang.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs*",
-              "RelativeToolTip": "FormDanhSachKhachHang.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAjwDYAAAANAAAAAAAAAA==",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
+              "RelativeToolTip": "FormDanhSachKhachHang.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4vxIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:28:30.448Z",
               "EditorCaption": ""
@@ -72,48 +93,10 @@
               "Title": "FormDanhSachKhachHang.cs [Design]",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeDocumentMoniker": "FormDanhSachKhachHang.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs [Design]*",
-              "RelativeToolTip": "FormDanhSachKhachHang.cs [Design]*",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs [Design]",
+              "RelativeToolTip": "FormDanhSachKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:18:09.102Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:17:31.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormDangNhap.cs",
-              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs",
-              "RelativeDocumentMoniker": "FormDangNhap.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs",
-              "RelativeToolTip": "FormDangNhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:57:38.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:40:28.517Z",
               "EditorCaption": " [Design]"
             }
           ]

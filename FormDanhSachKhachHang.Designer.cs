@@ -42,16 +42,22 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.cbLoaiKhachHang = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnCapNhat = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.btnTimkiem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSKH)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvDSKH
             // 
             this.dgvDSKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDSKH.Location = new System.Drawing.Point(66, 353);
+            this.dgvDSKH.Location = new System.Drawing.Point(66, 427);
             this.dgvDSKH.Name = "dgvDSKH";
             this.dgvDSKH.Size = new System.Drawing.Size(520, 183);
             this.dgvDSKH.TabIndex = 0;
+            this.dgvDSKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSKH_CellClick);
+            this.dgvDSKH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSKH_CellContentClick);
             // 
             // label1
             // 
@@ -163,11 +169,52 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Loại khách hàng";
             // 
+            // btnCapNhat
+            // 
+            this.btnCapNhat.Location = new System.Drawing.Point(261, 315);
+            this.btnCapNhat.Name = "btnCapNhat";
+            this.btnCapNhat.Size = new System.Drawing.Size(75, 23);
+            this.btnCapNhat.TabIndex = 14;
+            this.btnCapNhat.Text = "Cập nhật";
+            this.btnCapNhat.UseVisualStyleBackColor = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(390, 315);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 15;
+            this.btnDelete.Text = "delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(204, 363);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(100, 20);
+            this.txtTimKiem.TabIndex = 16;
+            // 
+            // btnTimkiem
+            // 
+            this.btnTimkiem.Location = new System.Drawing.Point(346, 359);
+            this.btnTimkiem.Name = "btnTimkiem";
+            this.btnTimkiem.Size = new System.Drawing.Size(75, 23);
+            this.btnTimkiem.TabIndex = 17;
+            this.btnTimkiem.Text = "Tìm kiếm";
+            this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimkiem.Click += new System.EventHandler(this.btnTimkiem_Click);
+            // 
             // FormDanhSachKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(676, 548);
+            this.ClientSize = new System.Drawing.Size(676, 622);
+            this.Controls.Add(this.btnTimkiem);
+            this.Controls.Add(this.txtTimKiem);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cbLoaiKhachHang);
             this.Controls.Add(this.btnThem);
@@ -206,5 +253,9 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.ComboBox cbLoaiKhachHang;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnCapNhat;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.Button btnTimkiem;
     }
 }

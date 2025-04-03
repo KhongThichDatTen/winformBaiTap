@@ -30,5 +30,12 @@ namespace BaiTongHopTMDT
             formDanhSachKhachHang.MdiParent = this;
             formDanhSachKhachHang.Show();
         }
+
+        private void báoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBaoCao formBaoCao = new FormBaoCao();
+            formBaoCao.MdiParent = this;
+            formBaoCao.Show();
+        }
     }
 }

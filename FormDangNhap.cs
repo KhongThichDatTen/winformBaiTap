@@ -58,15 +58,12 @@ namespace BaiTongHopTMDT
                     }
                 }
                 reader.Close();
-                if (isSuccess) { break; }
-                else
-                {
+                if (isSuccess) { break; }  
                     MessageBox.Show("sai tên đăng nhập hoặc mật khẩu!!");
                     txtDangNhap.Clear();
                     txtMatKhau.Clear();
                     txtDangNhap.Focus();
-                    break;
-                }
+                    break;    
             }
             conn.Close();
 

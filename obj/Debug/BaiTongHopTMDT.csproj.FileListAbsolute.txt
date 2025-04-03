@@ -10,3 +10,4 @@ K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.csproj.CoreCompileInputs.
 K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.exe
 K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.pdb
 K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.FormDanhSachKhachHang.resources
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.FormBaoCao.resources
