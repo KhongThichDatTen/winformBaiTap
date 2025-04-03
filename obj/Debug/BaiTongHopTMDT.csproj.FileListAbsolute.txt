@@ -1,0 +1,12 @@
+K:\windowsForm\BaiTongHopTMDT\bin\Debug\BaiTongHopTMDT.exe.config
+K:\windowsForm\BaiTongHopTMDT\bin\Debug\BaiTongHopTMDT.exe
+K:\windowsForm\BaiTongHopTMDT\bin\Debug\BaiTongHopTMDT.pdb
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.csproj.AssemblyReference.cache
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.Form1.resources
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.FormDangNhap.resources
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.Properties.Resources.resources
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.csproj.GenerateResource.cache
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.csproj.CoreCompileInputs.cache
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.exe
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.pdb
+K:\windowsForm\BaiTongHopTMDT\obj\Debug\BaiTongHopTMDT.FormDanhSachKhachHang.resources
