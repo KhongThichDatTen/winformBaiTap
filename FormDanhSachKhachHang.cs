@@ -21,28 +21,42 @@ namespace BaiTongHopTMDT
             intoComboBoxData();
         }
         //them data
-        private void btnThem_Click(object sender, EventArgs e)
+        public void loaddata()
         {
             SqlConnection conn = new SqlConnection(str);
             conn.Open();
-            string insert = "insert into khachkhang " + "values(@ht, @sdt, @dc, @ns, @id)";
-            SqlParameter[] p =
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from khachkhang", conn);
+            DataTable dt = new DataTable();
+            sqlDataAdapter.Fill(dt);
+            dgvDSKH.DataSource = dt;
+            conn.Close();
+        }
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            try 
             {
+                SqlConnection conn = new SqlConnection(str);
+                conn.Open();
+                string insert = "insert into khachkhang " + "values(@ht, @sdt, @dc, @ns, @id)";
+                SqlParameter[] p =
+                {
                 new SqlParameter("@ht",txtHoTen.Text),
                 new SqlParameter("@sdt",txtSdt.Text),
                 new SqlParameter("@dc",txtDiaChi.Text),
                 new SqlParameter("@ns",dtp.Value.Date),
                 new SqlParameter("@id",selectid)
-            };
-            SqlCommand cmd = new SqlCommand(insert, conn);
-            cmd.Parameters.AddRange(p);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("thêm thành công");
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from khachkhang",conn);
-            DataTable dt = new DataTable();
-            sqlDataAdapter.Fill(dt);
-            dgvDSKH.DataSource = dt;
-            conn.Close();
+                };
+                SqlCommand cmd = new SqlCommand(insert, conn);
+                cmd.Parameters.AddRange(p);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("thêm thành công");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("vui vòng nhập dữ liệu hợp lệ "+ ex.Message);
+            }
+            
+                loaddata();   
             
         }
 
@@ -103,7 +117,7 @@ namespace BaiTongHopTMDT
                 object cellDiaChi = dgvDSKH.Rows[e.RowIndex].Cells["DiaChi"].Value;
                 if (cellSDT != null) // Kiểm tra giá trị không null
                 {
-                    txtDiaChi.Text = cellSDT.ToString();
+                    txtDiaChi.Text = cellDiaChi.ToString();
                 }
                 object cellNgaySinh = dgvDSKH.Rows[e.RowIndex].Cells["NgaySinh"].Value;
                 if (cellNgaySinh != null) // Kiểm tra giá trị không null
@@ -119,26 +133,25 @@ namespace BaiTongHopTMDT
             DialogResult rs = MessageBox.Show("bạn có muốn cập nhật dữ liêu?","confirm",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
             if (rs == DialogResult.Yes)
             {
-                SqlConnection conn = new SqlConnection(str);
-                conn.Open();
-                string insert = "update khachkhang set " + "hoten = @ht, sdt = @sdt, diachi = @dc, ngaysinh = @ns, idloaikhachhang = @id where id = " + selectID;
-                SqlParameter[] p =
+                try
                 {
-                new SqlParameter("@ht", txtHoTen.Text),
-                new SqlParameter("@sdt", txtSdt.Text),
-                new SqlParameter("@dc", txtDiaChi.Text),
-                new SqlParameter("@ns", dtp.Value.Date),
-                new SqlParameter("@id",selectid)
-                };           
-                SqlCommand cmd = new SqlCommand(insert, conn);
-                cmd.Parameters.AddRange(p);
-                cmd.ExecuteNonQuery();
-
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from khachkhang",conn);
-                DataTable dt = new DataTable();
-                sqlDataAdapter.Fill(dt);
-                dgvDSKH.DataSource = dt;
-                conn.Close();
+                    SqlConnection conn = new SqlConnection(str);
+                    conn.Open();
+                    string insert = "update khachkhang set " + "hoten = @ht, sdt = @sdt, diachi = @dc, ngaysinh = @ns, idloaikhachhang = @id where id = " + selectID;
+                    SqlParameter[] p =
+                    {
+                    new SqlParameter("@ht", txtHoTen.Text),
+                    new SqlParameter("@sdt", txtSdt.Text),
+                    new SqlParameter("@dc", txtDiaChi.Text),
+                    new SqlParameter("@ns", dtp.Value.Date),
+                    new SqlParameter("@id",selectid)
+                    };
+                    SqlCommand cmd = new SqlCommand(insert, conn);
+                    cmd.Parameters.AddRange(p);
+                    cmd.ExecuteNonQuery();
+                }
+                catch (Exception ex) {MessageBox.Show("vui lòng chọn loại khách hàng!!",ex.Message); }
+                loaddata();
             }
             
         }
@@ -152,16 +165,19 @@ namespace BaiTongHopTMDT
                 "confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (rs == DialogResult.Yes) 
             { 
-                SqlConnection connection = new SqlConnection(str);
-                connection.Open();
-                SqlCommand cmd = new SqlCommand("delete from khachkhang where id = "+selectID, connection);
-                cmd.ExecuteNonQuery();
+                if(selectID != "") {
+                    SqlConnection connection = new SqlConnection(str);
+                    connection.Open();
+                    SqlCommand cmd = new SqlCommand("delete from khachkhang where id = " + selectID, connection);
+                    cmd.ExecuteNonQuery();
 
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from khachkhang", connection);
-                DataTable dt = new DataTable();
-                sqlDataAdapter.Fill(dt);
-                dgvDSKH.DataSource = dt;
-                connection.Close();
+                    SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from khachkhang", connection);
+                    DataTable dt = new DataTable();
+                    sqlDataAdapter.Fill(dt);
+                    dgvDSKH.DataSource = dt;
+                    connection.Close();
+                }
+                else { MessageBox.Show("bạn chưa chọn dòng"); }
             }
 
         }
