@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "K:\\windowsForm\\BaiTongHopTMDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +46,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "FormDangNhap.cs",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs",
+              "RelativeToolTip": "FormDangNhap.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvzoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:37:32.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "FormDangNhap.cs",
+              "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:37:29.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormBaoCao.cs",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs",
               "RelativeDocumentMoniker": "FormBaoCao.cs",
@@ -46,12 +79,11 @@
               "RelativeToolTip": "FormBaoCao.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:28:55.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:28:55.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormBaoCao.cs [Design]",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormBaoCao.cs",
               "RelativeDocumentMoniker": "FormBaoCao.cs",
@@ -62,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ComboBoxItem.cs",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\ComboBoxItem.cs",
               "RelativeDocumentMoniker": "ComboBoxItem.cs",
@@ -74,28 +106,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormDanhSachKhachHang.cs",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeDocumentMoniker": "FormDanhSachKhachHang.cs",
               "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeToolTip": "FormDanhSachKhachHang.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAqwMcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAMcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:28:30.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FormDanhSachKhachHang.cs [Design]",
               "DocumentMoniker": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeDocumentMoniker": "FormDanhSachKhachHang.cs",
               "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs [Design]",
               "RelativeToolTip": "FormDanhSachKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:18:09.102Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-02T15:18:09.102Z"
             }
           ]
         }

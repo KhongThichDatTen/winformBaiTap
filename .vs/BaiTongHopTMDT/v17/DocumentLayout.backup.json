@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "K:\\windowsForm\\BaiTongHopTMDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formdanhsachkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|k:\\windowsform\\baitonghoptmdt\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|K:\\windowsForm\\BaiTongHopTMDT\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7AD929-7394-45B1-A39E-941067548788}|BaiTongHopTMDT.csproj|solutionrelative:formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "FormBaoCao.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:28:55.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:28:55.887Z"
             },
             {
               "$type": "Document",
@@ -80,7 +79,7 @@
               "RelativeDocumentMoniker": "FormDanhSachKhachHang.cs",
               "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs",
               "RelativeToolTip": "FormDanhSachKhachHang.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAArwMQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswMcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:28:30.448Z",
               "EditorCaption": ""
@@ -94,8 +93,7 @@
               "ToolTip": "K:\\windowsForm\\BaiTongHopTMDT\\FormDanhSachKhachHang.cs [Design]",
               "RelativeToolTip": "FormDanhSachKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:18:09.102Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-02T15:18:09.102Z"
             }
           ]
         }
